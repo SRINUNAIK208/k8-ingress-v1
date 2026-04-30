@@ -42,7 +42,7 @@ kind: Ingress
 metadata:
   name: ingress-app1
   annotations:
-    alb.ingress.kubernetes.io/listen-ports: '[{HTTPS: 443}]'
+    alb.ingress.kubernetes.io/listen-ports: '[{"HTTPS": 443}]'
     alb.ingress.kubernetes.io/certificate-arn: arn:aws:acm:us-east-1:824333137275:certificate/d3169da7-19cb-420c-9a38-dfd1177f24d5
     alb.ingress.kubernetes.io/scheme: internet-facing
     alb.ingress.kubernetes.io/target-type: ip 
