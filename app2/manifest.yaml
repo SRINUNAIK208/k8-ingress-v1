@@ -11,7 +11,7 @@ spec:
     matchLabels:
       purpose: ingress
       component: nginx
-    template:
+  template:
       metadata:
           labels:
             purpose: ingress
